@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Top {
+  display: flex;
+  justify-content: center;
+}
+
+.Main-Gate {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Right {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translate(-0%, -50%);
+}
+
+.Bottom {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.Left {
+  position: absolute;
+  top: 50%;
+  transform: translate(-0%, -50%);
+}
+
+.Parent {
+  background-color: #f7cac9;
+  border: 5px solid red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.school {
+  border: 2px solid black;
+  padding: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.school-name {
+  color: orangered;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Child1 {
+  position: absolute;
+  color: green;
+  top: 0;
+  left: 0;
+}
+
+.Child2 {
+  color: blue;
+  position: absolute;
+  top: 0;
+  left: 50;
+  transform: translate(-50%, -0%);
+}
+
+.Child3 {
+  color: yellow;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.Child4 {
+  color: red;
+  position: absolute;
+  top: 50;
+  left: 0;
+  transform: translate(-0%, -50%);
+}
+
+.Child5 {
+  color: white;
+  position: absolute;
+  top: 50;
+  left: 50;
+  transform: translate(-50%, -50%);
+}
+
+.Child6 {
+  color: purple;
+  position: absolute;
+  top: 50;
+  right: 0;
+  transform: translate(-0%, -50%);
+}
+
+.Child7 {
+  color: black;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.Child8 {
+  color: brown;
+  position: absolute;
+  left: 50;
+  bottom: 0;
+  transform: translate(-50%, -0%);
+}
+
+.Child9 {
+  color: aqua;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
